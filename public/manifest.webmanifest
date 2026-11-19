@@ -1,0 +1,46 @@
+{
+  "name": "EduDirectory BD — শিক্ষা প্রতিষ্ঠান ডিরেক্টরি",
+  "short_name": "EduDirectory BD",
+  "description": "বাংলাদেশের শিক্ষা প্রতিষ্ঠানের স্মার্ট ডিজিটাল ডিরেক্টরি।",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F8FAFC",
+  "theme_color": "#1D4ED8",
+  "lang": "bn",
+  "dir": "ltr",
+  "categories": ["education", "reference", "utilities"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "প্রতিষ্ঠান খুঁজুন",
+      "short_name": "ডিরেক্টরি",
+      "url": "/?focus=search"
+    },
+    {
+      "name": "পরিসংখ্যান",
+      "short_name": "পরিসংখ্যান",
+      "url": "/stats"
+    }
+  ]
+}
